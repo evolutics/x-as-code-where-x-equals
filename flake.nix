@@ -15,7 +15,7 @@
       pkgs = import nixpkgs {inherit system;};
     in {
       devShell = pkgs.mkShellNoCC {
-        buildInputs = [travel-kit.defaultApp.${system}];
+        buildInputs = [travel-kit.packages.${system}.default];
       };
     });
 }
