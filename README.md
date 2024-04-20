@@ -46,7 +46,8 @@ reveal.js
 
 ## Typesetting
 
-LaTeX
+- LaTeX
+- Typst
 
 ## User environments
 
